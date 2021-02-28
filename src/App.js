@@ -1,20 +1,14 @@
-import { useEffect, useState } from 'react';
-import Player from './components/Player/Player'
-import fakeData from './FAKEDATA/player_info.json'
+import React, { useEffect, useState } from 'react';
+import Cart from './components/Cart/Cart';
+import Player from './components/Player/Player';
 
 function App() {
-  const [player, setPlayer] = useState([]);
 
-  useEffect(() => {
-    setPlayer(player)
-    console.log(player);
-
-
-  }, [])
   return (
     <div>
       <h1>Team Selection Board</h1>
-      <Player Player={player}></Player>
+      <Player></Player>
+      <Cart></Cart>
     </div>
   );
 }
