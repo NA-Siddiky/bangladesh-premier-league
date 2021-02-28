@@ -1,9 +1,9 @@
 import React from 'react';
 
 const PlayerInfo = (props) => {
-    console.log(props);
+    // console.log(props);
     const { name, salary, gender, image } = props.player
-    console.log(name);
+    // console.log(name);
     return (
         <div>
             <div>

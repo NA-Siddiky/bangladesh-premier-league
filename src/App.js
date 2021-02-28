@@ -8,7 +8,6 @@ function App() {
     <div>
       <h1>Team Selection Board</h1>
       <Player></Player>
-      <Cart></Cart>
     </div>
   );
 }
