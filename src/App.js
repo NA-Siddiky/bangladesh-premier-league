@@ -1,5 +1,3 @@
-import React, { useEffect, useState } from 'react';
-import Cart from './components/Cart/Cart';
 import Player from './components/Player/Player';
 
 function App() {
