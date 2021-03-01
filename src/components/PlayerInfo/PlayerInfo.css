@@ -1,17 +1,16 @@
-body{
-    margin: 0%;
-    font-family: 'Open Sans', sans-serif;
+body {
+  margin: 0%;
+  font-family: "Open Sans", sans-serif;
 }
 
-.player-dashboard{
-    margin:5px;
-    padding: 5px;
-    background: linear-gradient(90deg, green, red);
-
+.player-dashboard {
+  margin: 5px;
+  padding: 5px;
+  background: linear-gradient(90deg, green, red);
 }
 
-#player-image{
-    width: 280px;
-    height: 300px;
-    margin: 4px;
+#player-image {
+  width: 280px;
+  height: 300px;
+  margin: 4px;
 }

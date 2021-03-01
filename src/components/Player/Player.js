@@ -13,7 +13,6 @@ const Player = () => {
     const [selected, setSelected] = useState([])
     const selectPlayer = (select) => {
         const checking = selected.filter((check) => check.id === select.id)
-        console.log(checking)
         if (checking.length === 0) {
             setSelected([...selected, select])
         }

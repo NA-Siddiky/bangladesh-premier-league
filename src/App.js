@@ -7,7 +7,11 @@ function App() {
 
   return (
     <div className='main-container'>
-      <h2 className="fixed-top header-design"> <img style={{width:'50px'}} src={image} alt=""/> Bangladesh Cricket Board<img style={{width:'50px'}} src={image} alt=""/></h2>
+      <h2 className="fixed-top header-design">
+        <img style={{ width: '50px' }} src={image} alt="" />
+          Bangladesh Cricket Board
+        <img style={{ width: '50px' }} src={image} alt="" />
+      </h2>
       <Player></Player>
     </div>
   );

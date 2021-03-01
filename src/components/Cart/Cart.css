@@ -1,17 +1,13 @@
-#cart-design{
-    border-top: 2px solid red;
+#cart-design {
+  border-top: 2px solid red;
 }
-#cart-bg{
-    background-color: white;
-    padding:10px;
-    margin:10px;
-    border: 2px solid red;
-    border-radius: 10px;
+#cart-bg {
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid red;
+  border-radius: 10px;
 }
-
-#team-image{
-    width:100%;
-}
-div{
-    /* border: 1px solid black;     */
+#team-image {
+  width: 100%;
 }
