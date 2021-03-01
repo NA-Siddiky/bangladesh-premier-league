@@ -1,7 +1,7 @@
 [{
     "id": "01",
     "name": "Mominul Haque",
-    "salary": 10002000,
+    "salary": 20000,
     "gender": "Male",
     "image": "https://www.espncricinfo.com/inline/content/image/1221578.html",
     "email": "cbirckmann0@omniture.com",
@@ -9,7 +9,7 @@
   }, {
     "id": "02",
     "name": "Abu Jayed",
-    "salary": 10003000,
+    "salary": 30000,
     "gender": "Male",
     "image": "https://www.espncricinfo.com/inline/content/image/1221337.html",
     "email": "mespadero1@cnbc.com",
@@ -17,7 +17,7 @@
   }, {
     "id": "03",
     "name": "Imrul Kayes",
-    "salary": 10004000,
+    "salary": 40000,
     "gender": "Male",
     "image": "https://www.espncricinfo.com/inline/content/image/1099670.html",
     "email": "fepinoy2@narod.ru",
@@ -25,7 +25,7 @@
   }, {
     "id": "04",
     "name": "Mahmudullah",
-    "salary": 10005000,
+    "salary": 50000,
     "gender": "Male",
     "image": "https://www.espncricinfo.com/inline/content/image/1099653.html",
     "email": "tbierton3@google.ca",
@@ -33,7 +33,7 @@
   }, {
     "id": "05",
     "name": "Mustafizur Rahman",
-    "salary": 10006000,
+    "salary": 60000,
     "gender": "Male",
     "image": "https://www.espncricinfo.com/inline/content/image/1099647.html",
     "email": "gwythill4@gmpg.org",

@@ -1,19 +1,23 @@
 import React from 'react';
 
 const Cart = (props) => {
+    
 
     return (
         <div>
 
             {
                 props.cart.map((selected) => (<div>
-                    <h1>Total Added Player: {selected.name}</h1>
+                    <h3>Player: {selected.name}</h3>
                     <p>Salary: {selected.salary}</p>
-
                 </div>))
             }
-            <h1>Total Selected Player: {props.cart.length}</h1>
-            <h2>Total Budget: {props.cart.reduce((total, salary) => total + salary.salary, 0)}</h2>
+            <br />
+            <div>
+                <h3>Selected Player: {props.cart.length}</h3>
+                <h2>Total Budget: ৳ {props.cart.reduce((total, salary) => total + salary.salary, 0)}</h2>
+            </div>
+
         </div>
     );
 };

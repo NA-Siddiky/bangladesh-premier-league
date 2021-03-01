@@ -1,0 +1,11 @@
+body{
+    margin: 0%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.player-dashboard{
+    margin:5px;
+    padding: 5px;
+    background: linear-gradient(90deg, green, red)
+
+}
