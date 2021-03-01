@@ -6,6 +6,12 @@ body{
 .player-dashboard{
     margin:5px;
     padding: 5px;
-    background: linear-gradient(90deg, green, red)
+    background: linear-gradient(90deg, green, red);
 
+}
+
+#player-image{
+    width: 280px;
+    height: 300px;
+    margin: 4px;
 }

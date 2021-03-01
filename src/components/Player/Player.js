@@ -4,17 +4,14 @@ import Cart from '../Cart/Cart';
 import PlayerInfo from '../PlayerInfo/PlayerInfo';
 import './Player.css'
 
-
 const Player = () => {
     const [players, setPlayers] = useState([])
     useEffect(() => {
         setPlayers(fakeData)
     }, [])
 
-
     const [selected, setSelected] = useState([])
     const selectPlayer = (select) => {
-
         const checking = selected.filter((check) => check.id === select.id)
         console.log(checking)
         if (checking.length === 0) {
@@ -23,12 +20,13 @@ const Player = () => {
         else {
             alert("Player already added, Please add another Player")
         }
-
     }
 
     return (
         <div>
-            <h1 className="m-5">Please Select Players to creat the Team</h1>
+            <div style={{ borderBottom: '2px solid green' }} className="m-5 py-3 text-center">
+                <h1>Please Select Players for ICC-2021</h1>
+            </div>
 
             <div className="row">
                 <div className="col-md-8 col-sm-6 d-flex flex-wrap">
@@ -40,7 +38,7 @@ const Player = () => {
                     <Cart cart={selected}></Cart>
                 </div>
             </div>
-        </div>
+        </div >
     );
 };
 

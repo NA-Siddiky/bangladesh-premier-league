@@ -1,13 +1,13 @@
 import Player from './components/Player/Player';
-import image from './Western.ico'
+import image from './BD.png'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.css'
 
 function App() {
 
   return (
-    <div>
-      
-      <h1 className="fixed-top" style={{textAlign: "center", backgroundColor:'lightblue'}}> <img src={image} alt=""/> Western Premier League Team Selection Board</h1>
+    <div className='main-container'>
+      <h2 className="fixed-top header-design"> <img style={{width:'50px'}} src={image} alt=""/> Bangladesh Cricket Board<img style={{width:'50px'}} src={image} alt=""/></h2>
       <Player></Player>
     </div>
   );
