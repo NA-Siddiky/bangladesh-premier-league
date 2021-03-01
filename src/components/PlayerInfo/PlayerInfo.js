@@ -1,6 +1,8 @@
 import React from 'react';
 import { Card, ListGroup, ListGroupItem } from 'react-bootstrap';
 import './PlayerInfo.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faUserPlus } from '@fortawesome/free-solid-svg-icons'
 
 
 const PlayerInfo = (props) => {
@@ -25,7 +27,7 @@ const PlayerInfo = (props) => {
                     <ListGroupItem>Salary: {salary}</ListGroupItem>
                 </ListGroup>
                 <Card.Body>
-                    <button onClick={() => props.select(props.player)}>Select</button>
+                    <button onClick={() => props.select(props.player)}> <FontAwesomeIcon icon={faUserPlus} /> Select Player</button>
                 </Card.Body>
             </Card>
         </div>

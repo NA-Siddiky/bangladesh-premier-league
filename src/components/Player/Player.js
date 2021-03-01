@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 import fakeData from '../../FAKEDATA/player_info.json'
 import Cart from '../Cart/Cart';
 import PlayerInfo from '../PlayerInfo/PlayerInfo';
+import './Player.css'
 
 
 const Player = () => {
@@ -27,7 +28,7 @@ const Player = () => {
 
     return (
         <div>
-            <h1>Please Select Players to creat the Team</h1>
+            <h1 className="m-5">Please Select Players to creat the Team</h1>
 
             <div className="row">
                 <div className="col-md-8 col-sm-6 d-flex flex-wrap">
@@ -35,7 +36,7 @@ const Player = () => {
                         players.map((Player) => <PlayerInfo player={Player} select={selectPlayer}></PlayerInfo>)
                     }
                 </div>
-                <div className="col-md-4 col-sm-6">
+                <div className="col-md-4 col-sm-6 sticky-top cart-design">
                     <Cart cart={selected}></Cart>
                 </div>
             </div>

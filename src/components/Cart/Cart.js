@@ -1,10 +1,11 @@
 import React from 'react';
+import './Cart.css'
 
 const Cart = (props) => {
-    
+
 
     return (
-        <div>
+        <div className="sticky-top">
 
             {
                 props.cart.map((selected) => (<div>
@@ -13,7 +14,7 @@ const Cart = (props) => {
                 </div>))
             }
             <br />
-            <div>
+            <div className='cart-design'>
                 <h3>Selected Player: {props.cart.length}</h3>
                 <h2>Total Budget: ৳ {props.cart.reduce((total, salary) => total + salary.salary, 0)}</h2>
             </div>

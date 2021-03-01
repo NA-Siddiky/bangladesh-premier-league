@@ -7,7 +7,7 @@ function App() {
   return (
     <div>
       
-      <h1 style={{textAlign: "center"}}> <img src={image} alt=""/> Western Premier League Team Selection Board</h1>
+      <h1 className="fixed-top" style={{textAlign: "center", backgroundColor:'lightblue'}}> <img src={image} alt=""/> Western Premier League Team Selection Board</h1>
       <Player></Player>
     </div>
   );
